@@ -8,6 +8,8 @@ docker run --privileged --name cjw_rdp_ubuntu -p 29425:3389 -p 22425:22 -v /home
 
 
 cjw_manishfoodtechs_xfcefulldesktop_ubuntu20.4.zip 需要解压
+
+
 docker run -it -p 9096:3389 -e 3389 --shm-size 2g manishfoodtechs/xfcefulldesktop_ubuntu20.4
 (2) Service start xrdp:
 
